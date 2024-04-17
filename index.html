@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Indian Tea" />
+    <meta name="description" content="Indian tea shop" />
+    <meta
+      name="keywords"
+      content="India , tea , Indian Tea, green tea, black tea"
+    />
+    <meta name="author" content="Alexander Gulinsky" />
+    <title>Indian Tea</title>
+    <!-- icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png" />
+    <link rel="manifest" href="/assets/icon/site.webmanifest" />
+    <!-- swiper.js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Raleway:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- normalize.css / style.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="header_container">
+        <h1 class="title">Indian Tea</h1>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <!-- subtitle -->
+      <section class="section first-subtitle__section">
+        <div class="container first-subtitle__container">
+          <h2 class="subtitle">Feel the taste of life</h2>
+          <div class="reviews">
+            <img class="reviews__img" src="./assets/stars.svg" alt="stars" />
+            <p class="reviews__text">1,500+ Five Star Reviews</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- info -->
+      <section class="section">
+        <div class="container info-container">
+          <!-- upper side -->
+          <div class="info__upper-side">
+            <!-- upper side/left -->
+            <div class="info__left-side">
+              <div class="grid">
+                <!-- features -->
+                <div class="grid__first-children">
+                  <div class="features features__settings">
+                    <ul class="features__list">
+                      <li class="features__item">
+                        <img
+                          class="features__svg"
+                          src="./assets/features-svg/first.svg"
+                          alt="features icon"
+                        />
+                        <p class="features__text">Warmth and tranquility.</p>
+                      </li>
+                      <li class="features__item">
+                        <img
+                          class="features__svg"
+                          src="./assets/features-svg/second.svg"
+                          alt="features icon"
+                        />
+                        <p class="features__text">Refreshment and aroma.</p>
+                      </li>
+                      <li class="features__item">
+                        <img
+                          class="features__svg"
+                          src="./assets/features-svg/third.svg"
+                          alt="features icon"
+                        />
+                        <p class="features__text">
+                          Revitalization and antioxidants.
+                        </p>
+                      </li>
+                      <li class="features__item">
+                        <img
+                          class="features__svg"
+                          src="./assets/features-svg/first.svg"
+                          alt="features icon"
+                        />
+                        <p class="features__text">Relaxation and flavor.</p>
+                      </li>
+                      <li class="features__item">
+                        <img
+                          class="features__svg"
+                          src="./assets/features-svg/second.svg"
+                          alt="features icon"
+                        />
+                        <p class="features__text">Energy and wellness.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- hero -->
+                <div class="grid__second-children">
+                  <picture>
+                    <source
+                      media="(min-width: 521px)"
+                      srcset="
+                        ./assets/hero/hero-webp-desk-x1.webp 1x,
+                        ./assets/hero/hero-webp-desk-x2.webp 2x
+                      "
+                    />
+
+                    <source
+                      media="(min-width: 521px)"
+                      srcset="
+                        ./assets/hero/hero-png-desk-x1.png 1x,
+                        ./assets/hero/hero-png-desk-x2.png 2x
+                      "
+                    />
+
+                    <source
+                      media="(max-width: 520px)"
+                      srcset="
+                        ./assets/hero/hero-webp-mob-x1.webp 1x,
+                        ./assets/hero/hero-webp-mob-x2.webp 2x
+                      "
+                    />
+
+                    <source
+                      media="(max-width: 520px)"
+                      srcset="
+                        ./assets/hero/hero-png-mob-x1.png 1x,
+                        ./assets/hero/hero-png-mob-x2.png 2x
+                      "
+                    />
+
+                    <img
+                      class="hero"
+                      src="./assets/hero/hero-png-desk-x1.png"
+                      alt="picture"
+                    />
+                  </picture>
+                </div>
+
+                <!-- description -->
+                <div class="grid__third-children">
+                  <p class="features__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent nec sapien eu ipsum semper fermentum. Quisque nec
+                    dolor ullamcorper, tempor ipsum a, varius purus. Vivamus
+                    vitae metus vel purus tempor lacinia.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- upper side/right -->
+            <div class="info__right-side">
+              <!-- experts -->
+              <aside>
+                <div class="experts">
+                  <div class="experts__additional-box">
+                    <!-- experts subtext -->
+                    <div class="experts__subtext">
+                      <p class="experts__subtext-first">Recommended By</p>
+                      <p class="experts__subtext-second">Experts</p>
+                    </div>
+
+                    <!-- experts user list -->
+                    <ul class="experts__user-list">
+                      <li class="experts__user-item">
+                        <div
+                          class="experts__user-box experts__user-box--active"
+                        >
+                          <img
+                            class="experts__user-img"
+                            src="./assets/experts/first-expert.png"
+                            alt="expert"
+                          />
+                        </div>
+                      </li>
+                      <li class="experts__user-item">
+                        <div class="experts__user-box">
+                          <img
+                            src="./assets/experts/second-expert.png"
+                            alt="expert"
+                          />
+                        </div>
+                      </li>
+                      <li class="experts__user-item">
+                        <div class="experts__user-box">
+                          <img
+                            src="./assets/experts/third-expert.png"
+                            alt="expert"
+                          />
+                        </div>
+                      </li>
+                      <li class="experts__user-item">
+                        <div class="experts__user-box">
+                          <img
+                            src="./assets/experts/fourth-expert.png"
+                            alt="expert"
+                          />
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- experts comments -->
+                  <ul class="experts__user-comment-list"></ul>
+                </div>
+              </aside>
+            </div>
+          </div>
+
+          <!-- bottom side / btn list -->
+          <ul class="button-list button-list__settings">
+            <li class="button-list__item">
+              <button
+                class="button-buy-now"
+                type="button"
+                aria-label="button buy now"
+              >
+                Buy Now
+                <img
+                  class="button-buy-now__svg"
+                  src="./assets/arrow-right.svg"
+                  alt="icon button buy now"
+                />
+              </button>
+            </li>
+            <li class="button-list__item">
+              <a
+                class="link-explore-benefits"
+                href="/"
+                aria-label="link - Explore Benefits"
+              >
+                <p class="link-explore-benefits__text">Explore Benefits</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- slider -->
+      <section class="section slider-section">
+        <!-- slider/subtitle -->
+        <div class="slider-container">
+          <div class="second-subtitle">
+            <div class="second-subtitle__reviews">
+              <img
+                class="second-subtitle__reviews-img"
+                src="./assets/stars.svg"
+                alt="stars"
+              />
+              <p class="second-subtitle__reviews-text">
+                1,500+ Five Star Reviews
+              </p>
+            </div>
+
+            <h2 class="second-subtitle__title">Lorem ipsum dolor sit amet</h2>
+            <p class="second-subtitle__text">
+              Lorem ipsum dolor sit amet consectetur. Gravida facilisi eleifend
+              sit quam morbi risus id. Nisl massa donec tincidunt.
+            </p>
+          </div>
+
+          <!-- slider box -->
+          <div class="slider">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <!-- 1 slide -->
+                <div class="additional__swiper-class swiper-slide active-slide">
+                  <div class="video__box">
+                    <div class="video__additional-box">
+                      <video
+                        class="video"
+                        poster="./assets/video/first-poster.png"
+                      >
+                        <source
+                          src="./assets/video/first-video.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                  </div>
+
+                  <img
+                    class="video-button"
+                    src="./assets/video/play-icon.svg"
+                    width="51"
+                    height="51"
+                    alt="icon"
+                  />
+
+                  <div class="video__author-box">
+                    <img
+                      class="video__author-img"
+                      src="./assets/experts/third-expert.png"
+                      alt="video author"
+                    />
+                    <ul class="video__author-list">
+                      <li
+                        class="video__author-item video__author-item--first-child"
+                      >
+                        <p class="video__author-name">Michael K.</p>
+                        <img
+                          class="video__author-stars"
+                          src="/assets/stars.svg"
+                          alt="author rate"
+                        />
+                      </li>
+                      <li class="video__author-item">
+                        <p class="video__author-role">Certified Buyer</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- 2 slide -->
+                <div
+                  class="additional__swiper-class swiper-slide not-active-slide"
+                >
+                  <div class="video__box">
+                    <div class="video__additional-box">
+                      <video
+                        class="video"
+                        poster="./assets/video/second-poster.png"
+                      >
+                        <source
+                          src="./assets/video/first-video.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                  </div>
+
+                  <img
+                    class="video-button"
+                    src="./assets/video/play-icon.svg"
+                    width="51"
+                    height="51"
+                    alt="icon"
+                  />
+
+                  <div class="video__author-box">
+                    <img
+                      class="video__author-img"
+                      src="./assets/experts/third-expert.png"
+                      alt="video author"
+                    />
+                    <ul class="video__author-list">
+                      <li
+                        class="video__author-item video__author-item--first-child"
+                      >
+                        <p class="video__author-name">Michael K.</p>
+                        <img
+                          class="video__author-stars"
+                          src="/assets/stars.svg"
+                          alt="author rate"
+                        />
+                      </li>
+                      <li class="video__author-item">
+                        <p class="video__author-role">Certified Buyer</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- 3 slide -->
+                <div
+                  class="additional__swiper-class swiper-slide not-active-slide"
+                >
+                  <div class="video__box">
+                    <div class="video__additional-box">
+                      <video
+                        class="video"
+                        poster="./assets/video/third-poster.png"
+                      >
+                        <source
+                          src="./assets/video/first-video.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                  </div>
+
+                  <img
+                    class="video-button"
+                    src="./assets/video/play-icon.svg"
+                    width="51"
+                    height="51"
+                    alt="icon"
+                  />
+
+                  <div class="video__author-box">
+                    <img
+                      class="video__author-img"
+                      src="./assets/experts/third-expert.png"
+                      alt="video author"
+                    />
+                    <ul class="video__author-list">
+                      <li
+                        class="video__author-item video__author-item--first-child"
+                      >
+                        <p class="video__author-name">Michael K.</p>
+                        <img
+                          class="video__author-stars"
+                          src="/assets/stars.svg"
+                          alt="author rate"
+                        />
+                      </li>
+                      <li class="video__author-item">
+                        <p class="video__author-role">Certified Buyer</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- 4 slide -->
+                <div
+                  class="additional__swiper-class swiper-slide not-active-slide"
+                >
+                  <div class="video__box">
+                    <div class="video__additional-box">
+                      <video
+                        class="video"
+                        poster="./assets/video/first-poster.png"
+                      >
+                        <source
+                          src="./assets/video/first-video.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                  </div>
+
+                  <img
+                    class="video-button"
+                    src="./assets/video/play-icon.svg"
+                    width="51"
+                    height="51"
+                    alt="icon"
+                  />
+
+                  <div class="video__author-box">
+                    <img
+                      class="video__author-img"
+                      src="./assets/experts/third-expert.png"
+                      alt="video author"
+                    />
+                    <ul class="video__author-list">
+                      <li
+                        class="video__author-item video__author-item--first-child"
+                      >
+                        <p class="video__author-name">Michael K.</p>
+                        <img
+                          class="video__author-stars"
+                          src="/assets/stars.svg"
+                          alt="author rate"
+                        />
+                      </li>
+                      <li class="video__author-item">
+                        <p class="video__author-role">Certified Buyer</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- 5 slide -->
+                <div
+                  class="additional__swiper-class swiper-slide not-active-slide"
+                >
+                  <div class="video__box">
+                    <div class="video__additional-box">
+                      <video
+                        class="video"
+                        poster="./assets/video/second-poster.png"
+                      >
+                        <source
+                          src="./assets/video/first-video.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                  </div>
+
+                  <img
+                    class="video-button"
+                    src="./assets/video/play-icon.svg"
+                    width="51"
+                    height="51"
+                    alt="icon"
+                  />
+
+                  <div class="video__author-box">
+                    <img
+                      class="video__author-img"
+                      src="./assets/experts/third-expert.png"
+                      alt="video author"
+                    />
+                    <ul class="video__author-list">
+                      <li
+                        class="video__author-item video__author-item--first-child"
+                      >
+                        <p class="video__author-name">Michael K.</p>
+                        <img
+                          class="video__author-stars"
+                          src="/assets/stars.svg"
+                          alt="author rate"
+                        />
+                      </li>
+                      <li class="video__author-item">
+                        <p class="video__author-role">Certified Buyer</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- 6 slide -->
+                <div
+                  class="additional__swiper-class swiper-slide not-active-slide"
+                >
+                  <div class="video__box">
+                    <div class="video__additional-box">
+                      <video
+                        class="video"
+                        poster="./assets/video/third-poster.png"
+                      >
+                        <source
+                          src="./assets/video/first-video.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                  </div>
+
+                  <img
+                    class="video-button"
+                    src="./assets/video/play-icon.svg"
+                    width="51"
+                    height="51"
+                    alt="icon"
+                  />
+
+                  <div class="video__author-box">
+                    <img
+                      class="video__author-img"
+                      src="./assets/experts/third-expert.png"
+                      alt="video author"
+                    />
+                    <ul class="video__author-list">
+                      <li
+                        class="video__author-item video__author-item--first-child"
+                      >
+                        <p class="video__author-name">Michael K.</p>
+                        <img
+                          class="video__author-stars"
+                          src="/assets/stars.svg"
+                          alt="author rate"
+                        />
+                      </li>
+                      <li class="video__author-item">
+                        <p class="video__author-role">Certified Buyer</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
