@@ -581,6 +581,15 @@ header {
   font-size: 16px;
   line-height: 150%;
   color: #fff;
+
+  transition: 150ms;
+
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-buy-now:focus {
+  transform: scale(1.03);
 }
 
 @media screen and (min-width: 700px) {
@@ -595,6 +604,10 @@ header {
     font-weight: 500;
     line-height: 156%;
   }
+
+  .button-buy-now:hover {
+    transform: scale(1.03);
+  }
 }
 
 .button-buy-now__svg {
@@ -603,10 +616,23 @@ header {
 }
 
 .link-explore-benefits {
+  display: block;
   color: #009efe;
   text-decoration: none;
   text-decoration: underline;
   text-decoration-skip-ink: none;
+
+  transition: 150ms;
+}
+
+.link-explore-benefits:focus {
+  transform: scale(1.03);
+}
+
+@media screen and (min-width: 768px) {
+  .link-explore-benefits:hover {
+    transform: scale(1.05);
+  }
 }
 
 .link-explore-benefits__text {

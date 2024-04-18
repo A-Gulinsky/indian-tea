@@ -161,7 +161,7 @@ const swiper = new Swiper('.swiper', {
   loop: true,
   spaceBetween: '26px',
   slidesPerView: 'auto',
-  speed: 1500,
+  speed: 300,
   breakpoints: {
     1200: {
       spaceBetween: 24,
